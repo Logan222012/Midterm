@@ -1,0 +1,103 @@
+.main {
+    background-color: #B8BACF ;
+    min-height: 675px;
+    text-align: center;
+}
+.feet {
+    background-color: #FE5F55;
+    color: #054A91;
+    font-size: large;
+    text-align: center;
+}
+.head {
+    background-color: #00A878;
+    color: #8A2E3A;
+}
+img {
+    align-items: center;
+}
+.lefttext {
+    text-align: left;
+}
+.centertext {
+    text-align: center;
+}
+.righttext {
+    text-align: right;
+}
+.btn {
+    background-color: black;
+    color: whitesmoke;
+}
+.hoi {
+    margin:auto;
+}
+.red {
+    color: red;
+}
+.wrapper{
+  height: 30px;
+  width: 200px;
+  position: relative;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 10px;
+  cursor: default;
+  animation: animate 1.5s linear infinite;
+  margin-left: auto;
+  margin-right: 0;
+}
+.wrapper .display,
+.wrapper span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.wrapper .display{
+  z-index: 999;
+  height: 50px;
+  width: 200px;
+  background: #1b1b1b;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
+  text-align: center;
+}
+.display #time{
+  line-height: 40px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+.btn2 {
+    background-color: darkred;
+    color: beige;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+
+.flex-center{
+    display: block;
+    margin: auto;
+}
+.card{
+    border: 5px solid;
+    border-color: #6B0504;
+}
